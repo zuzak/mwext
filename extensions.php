@@ -1,2 +1,2 @@
 <?php
-require_once( "$IP/extensions/CategoryTree/CategoryTree.php" );
+require_once( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
