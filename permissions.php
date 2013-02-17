@@ -21,10 +21,10 @@ $wgEmailConfirmToEdit = false;
 // Implicit group for all visitors
 $wgGroupPermissions['*']['createaccount'] = true;
 $wgGroupPermissions['*']['read'] = true;
-$wgGroupPermissions['*']['edit'] = true;
-$wgGroupPermissions['*']['createpage'] = true;
+$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['*']['createpage'] = false;
 $wgGroupPermissions['*']['createtalk'] = true;
-$wgGroupPermissions['*']['writeapi'] = true;
+$wgGroupPermissions['*']['writeapi'] = false;
 //$wgGroupPermissions['*']['patrolmarks']      = false; // let anons see what was patrolled
 
 // Implicit group for all logged-in accounts
