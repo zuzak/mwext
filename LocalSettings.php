@@ -20,9 +20,10 @@ $wgMetaNamespace = "Project";
 ## http://www.mediawiki.org/wiki/Manual:Short_URL
 $wgScriptPath       = "/w";
 $wgScriptExtension  = ".php";
+$wgArticlePath      = "/wiki/$1";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer           = "http://wiki.jiggl.es";
+$wgServer           = "http://wiki.oaosidl.org";
 
 ## The relative URL path to the skins directory
 $wgStylePath        = "$wgScriptPath/skins";
@@ -93,8 +94,4 @@ $wgDiff3 = "/usr/bin/diff3";
 # that value)
 $wgResourceLoaderMaxQueryLength = -1;
 
-
-
-# End of automatically generated settings.
-# Add more configuration options below.
-
+require("$IP/extensions/permissions.php");
