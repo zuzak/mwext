@@ -1,0 +1,3 @@
+[submodule "CategoryTree"]
+	path = CategoryTree
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CategoryTree.git
