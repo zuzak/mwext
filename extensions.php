@@ -52,3 +52,16 @@ require_once("$IP/extensions/Gadgets/Gadgets.php");
 # https://www.mediawiki.org/wiki/Extension:Interwiki
 require_once("$IP/extensions/Interwiki/Interwiki.php");
 $wgGroupPermissions['sysop']['interwiki'] = true;
+
+# Sudo
+# https://www.mediawiki.org/wiki/Extension:Sudo
+require_once("$IP/extensions/Sudo/Sudo.php");
+$wgGroupPermissions['sudo']['developer'] = true;
+
+# Editcount
+# https://www.mediawiki.org/wiki/Extension:Editcount
+require_once("$IP/extensions/Editcount/Editcount.php");
+
+# InputBox
+# https://www.mediawiki.org/wiki/Extension:InputBox
+require_once("$IP/extensions/InputBox/InputBox.php");

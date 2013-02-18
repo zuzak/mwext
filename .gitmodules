@@ -37,3 +37,12 @@
 [submodule "Interwiki"]
 	path = Interwiki
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Interwiki.git
+[submodule "Sudo"]
+	path = Sudo
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Sudo.git
+[submodule "Editcount"]
+	path = Editcount
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Editcount.git
+[submodule "InputBox"]
+	path = InputBox
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/InputBox.git
