@@ -94,6 +94,9 @@ $wgDiff3 = "/usr/bin/diff3";
 # that value)
 $wgResourceLoaderMaxQueryLength = -1;
 
-require("$IP/extensions/permissions.php");
 
+$wgMaxCredits = 3;
+
+$wgAllowUserCss = true;
+require("$IP/extensions/permissions.php");
 require("$IP/extensions/extensions.php");
