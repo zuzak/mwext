@@ -96,4 +96,4 @@ $wgResourceLoaderMaxQueryLength = -1;
 
 require("$IP/extensions/permissions.php");
 
-#require("$IP/extensions/extensions.php");
+require("$IP/extensions/extensions.php");
