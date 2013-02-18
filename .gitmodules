@@ -13,3 +13,24 @@
 [submodule "SyntaxHighlight_GeSHi"]
 	path = SyntaxHighlight_GeSHi
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/SyntaxHighlight_GeSHi.git
+[submodule "Vector"]
+	path = Vector
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Vector.git
+[submodule "PostEdit"]
+	path = PostEdit
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PostEdit.git
+[submodule "intersection"]
+	path = intersection
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/intersection.git
+[submodule "Nuke"]
+	path = Nuke
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git
+[submodule "Babel"]
+	path = Babel
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Babel.git
+[submodule "Math"]
+	path = Math
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Math.git
+[submodule "Gadgets"]
+	path = Gadgets
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Gadgets.git
