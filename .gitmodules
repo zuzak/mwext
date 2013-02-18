@@ -4,3 +4,12 @@
 [submodule "ParserFunctions"]
 	path = ParserFunctions
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git
+[submodule "ConfirmEdit"]
+	path = ConfirmEdit
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ConfirmEdit.git
+[submodule "WikiEditor"]
+	path = WikiEditor
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikiEditor.git
+[submodule "SyntaxHighlight_GeSHi"]
+	path = SyntaxHighlight_GeSHi
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/SyntaxHighlight_GeSHi.git
