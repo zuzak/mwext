@@ -34,3 +34,6 @@
 [submodule "Gadgets"]
 	path = Gadgets
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Gadgets.git
+[submodule "Interwiki"]
+	path = Interwiki
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Interwiki.git
