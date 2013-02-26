@@ -22,9 +22,6 @@ $wgScriptPath       = "/w";
 $wgScriptExtension  = ".php";
 $wgArticlePath      = "/wiki/$1";
 
-## The protocol and server name to use in fully-qualified URLs
-$wgServer           = "http://wiki.oaosidl.org";
-
 ## The relative URL path to the skins directory
 $wgStylePath        = "$wgScriptPath/skins";
 
@@ -80,9 +77,9 @@ $wgDefaultSkin = "vector";
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
 ## License and Creative Commons licenses are supported so far.
-$wgRightsPage = ""; # Set to the title of a wiki page that describes your license/copyright
+$wgRightsPage = "Project:Copyrights"; # Set to the title of a wiki page that describes your license/copyright
 $wgRightsUrl  = "http://www.gnu.org/copyleft/fdl.html";
-$wgRightsText = "GNU Free Documentation License 1.3 or later";
+$wgRightsText = "dual-licenced under the GNU Free Documentation License 1.3 or later, or copyleft-next version 0.1.0 or later";
 $wgRightsIcon = "{$wgStylePath}/common/images/gnu-fdl.png";
 
 # Path to the GNU diff3 utility. Used for conflict resolution.

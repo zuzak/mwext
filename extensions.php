@@ -65,3 +65,15 @@ require_once("$IP/extensions/Editcount/Editcount.php");
 # InputBox
 # https://www.mediawiki.org/wiki/Extension:InputBox
 require_once("$IP/extensions/InputBox/InputBox.php");
+
+# AntiSpoof
+# https://www.mediawiki.org/wiki/Extension:AntiSpoof
+require_once("$IP/extensions/AntiSpoof/AntiSpoof.php");
+
+# Cite
+# https://www.mediawiki.org/wiki/Extension:Cite
+# require_once("$IP/extensions/Cite/SpecialCite.php");
+
+# Awesomeness
+# https://www.mediawiki.org/wiki/Extension:Awesomeness
+require_once("$IP/extensions/Awesomeness/Awesomeness.php");
