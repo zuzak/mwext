@@ -102,4 +102,4 @@ $wgRevokePermissions = array();
 
 $wgImplicitGroups = array( '*', 'user', 'autoconfirmed' );
 
-$wgDefaultUserOptions['gadget-Hotcat'] = 1;
+$wgDefaultUserOptions['gadget-HotCat'] = 1;
