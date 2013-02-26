@@ -100,4 +100,10 @@ $wgGroupPermissions['bureaucrat']['noratelimit'] = true;
 
 $wgRevokePermissions = array();
 
-$wgImplicitGroups = array( '*', 'user', 'autoconfirmed' );
+$wgImplicitGroups = array( '*', 'user', 'autoconfirmed', 'aber' );
+
+
+// create aber-only protection level
+$wgAutopromote['aber'] = array('&', array(APCOND_IPINRANGE, '144.124.0.0/16'));
+$wgGroupPermissions['aber']['aber'] = true;
+$wgRestrictionLevels = array('', 'autoconfirmed', 'sysop', 'aber');
