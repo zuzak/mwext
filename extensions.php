@@ -82,3 +82,4 @@ require_once("$IP/extensions/Awesomeness/Awesomeness.php");
 # https://www.mediawiki.org/wiki/Extension:Cite/Cite.php
 require_once("$IP/extensions/Cite/Cite.php");
 $wgCiteEnablePopups = true;
+

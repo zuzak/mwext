@@ -105,7 +105,7 @@ $wgImplicitGroups = array( '*', 'user', 'autoconfirmed' );
 $wgDefaultUserOptions['gadget-HotCat'] = 1;
 
 $wgAutoConfirmAge = 0;
-$wgAutoConfirmCount = -1;
+$wgAutoConfirmCount = 1;
 
 
 // allow sysops to grant sysop to trustworthy persons
