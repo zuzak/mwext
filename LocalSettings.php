@@ -91,8 +91,11 @@ $wgDiff3 = "/usr/bin/diff3";
 # that value)
 $wgResourceLoaderMaxQueryLength = -1;
 
-
-
 $wgAllowUserCss = true;
+
+//$wgHiddenPrefs[] = "forceeditsummary";
+$wgDefaultUserOptions["forceeditsummary"] = true;
+
+$wgRestrictDisplayTitle = false;
 require("$IP/extensions/permissions.php");
 require("$IP/extensions/extensions.php");
