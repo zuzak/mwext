@@ -101,3 +101,5 @@ $wgGroupPermissions['bureaucrat']['noratelimit'] = true;
 $wgRevokePermissions = array();
 
 $wgImplicitGroups = array( '*', 'user', 'autoconfirmed' );
+
+$wgDefaultUserOptions['gadget-HotCat'] = 1;
