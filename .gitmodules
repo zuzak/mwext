@@ -52,3 +52,6 @@
 [submodule "Awesomeness"]
 	path = Awesomeness
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Awesomeness.git
+[submodule "Cite"]
+	path = Cite
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite.git
