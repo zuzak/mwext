@@ -77,3 +77,8 @@ require_once("$IP/extensions/AntiSpoof/AntiSpoof.php");
 # Awesomeness
 # https://www.mediawiki.org/wiki/Extension:Awesomeness
 require_once("$IP/extensions/Awesomeness/Awesomeness.php");
+
+# Cite
+# https://www.mediawiki.org/wiki/Extension:Cite/Cite.php
+require_once("$IP/extensions/Cite/Cite.php");
+$wgCiteEnablePopups = true;
