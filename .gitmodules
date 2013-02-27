@@ -55,9 +55,9 @@
 [submodule "Cite"]
 	path = Cite
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite.git
-[submodule "CategoryTree"]
-	path = CategoryTree
-	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CategoryTree.git
 [submodule "DismissableSiteNotice"]
 	path = DismissableSiteNotice
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/DismissableSiteNotice.git
+[submodule "VoteNY"]
+	path = VoteNY
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VoteNY.git
