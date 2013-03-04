@@ -97,5 +97,7 @@ $wgAllowUserCss = true;
 $wgDefaultUserOptions["forceeditsummary"] = true;
 
 $wgRestrictDisplayTitle = false;
+
+$wgRC2UDPOmitBots = true; // make irc less verbose 
 require("$IP/extensions/permissions.php");
 require("$IP/extensions/extensions.php");
