@@ -61,3 +61,6 @@
 [submodule "VoteNY"]
 	path = VoteNY
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VoteNY.git
+[submodule "Scribunto"]
+	path = Scribunto
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Scribunto.git
