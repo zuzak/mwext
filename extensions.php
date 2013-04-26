@@ -83,3 +83,13 @@ require_once("$IP/extensions/Awesomeness/Awesomeness.php");
 require_once("$IP/extensions/Cite/Cite.php");
 $wgCiteEnablePopups = true;
 
+
+# VoteNY
+# https://www.mediawiki.org/wiki/Extension:VoteNY
+require_once("$IP/extensions/VoteNY/Vote.php");
+
+# Scribunto
+# https://www.mediawiki.org/wiki/Extension:Scribunto
+require_once("$IP/extensions/Scribunto/Scribunto.php");
+$wgScribuntoDefaultEngine = 'luastandalone';
+# $wgScribuntoUseGeSHi = true;
