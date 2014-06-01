@@ -128,3 +128,7 @@ require_once("$IP/extensions/AbsenteeLandlord/AbsenteeLandlord.php");
 # AjaxLogin
 # https://www.mediawiki.org/wiki/Extension:AjaxLogin
 require_once("$IP/extensions/AjaxLogin/AjaxLogin.php");
+
+# Poem
+# https://www.mediawiki.org/wiki/Extension:Poem
+require_once("$IP/extensions/Poem/Poem.php");

@@ -82,3 +82,6 @@
 [submodule "AjaxLogin"]
 	path = AjaxLogin
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AjaxLogin.git
+[submodule "Poem"]
+	path = Poem
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Poem.git
