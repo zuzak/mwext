@@ -64,3 +64,6 @@
 [submodule "Scribunto"]
 	path = Scribunto
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Scribunto.git
+[submodule "CodeEditor"]
+	path = CodeEditor
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CodeEditor.git
