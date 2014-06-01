@@ -137,3 +137,7 @@ require_once("$IP/extensions/CSS/CSS.php");
 # GlobalUserrights
 # https://www.mediawiki.org/wiki/Extension:GlobalUserrights
 require_once("$IP/extensions/GlobalUserrights/GlobalUserrights.php");
+
+# GlobalUserrights
+# https://www.mediawiki.org/wiki/Extension:GlobalUserrights
+require_once("$IP/extensions/GlobalUserrights/GlobalUserrights.php");

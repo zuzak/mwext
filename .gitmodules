@@ -88,3 +88,6 @@
 [submodule "CSS"]
 	path = CSS
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CSS.git
+[submodule "GlobalUserrights"]
+	path = GlobalUserrights
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/GlobalUserrights.git
