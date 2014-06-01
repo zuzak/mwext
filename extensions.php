@@ -108,4 +108,11 @@ require_once("$IP/extensions/CodeEditor/CodeEditor.php");
 # https://www.mediawiki.org/wiki/Extension:MobileFrontend
 require_once("$IP/extensions/MobileFrontend/MobileFrontend.php");
 
+# LangCodeMagicWord
+# https://github.com/zuzak/mw-langcode-magic
 require_once("$IP/extensions/langcode/LanguageCodeMagicWord.php");
+
+# StickToThatLanguage
+# https://www.mediawiki.org/wiki/Extension:StickToThatLanguage
+require_once("$IP/extensions/StickToThatLanguage/StickToThatLanguage.php");
+$egSTTLanguageDisplaySelector = false;
