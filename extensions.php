@@ -1,5 +1,7 @@
 <?php
 
+$wgReadOnlyFile = "$IP/extensions/lockfile";
+
 # ParserFunctions
 # https://www.mediawiki.org/wiki/Extension:ParserFunctions
 require_once( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
@@ -14,7 +16,11 @@ $wgGroupPermissions['autoconfirmed']['skipcaptcha'] = true;
 
 # WikiEditor
 # https://www.mediawiki.org/wiki/Extension:WikiEditor
-require("$IP/extensions/WikiEditor/WikiEditor.php");
+require_once("$IP/extensions/WikiEditor/WikiEditor.php");
+$wgDefaultUserOptions['usebetatoolbar'] = 1;
+$wgDefaultUserOptions['usebetatoolbar-cgd'] = 1;
+$wgDefaultUserOptions['wikieditor-preview'] = 1;
+$wgDefaultUserOptions['wikieditor-publish'] = 1;
 
 # SyntaxHighlight_GeSHi
 # https://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi
@@ -93,3 +99,13 @@ require_once("$IP/extensions/VoteNY/Vote.php");
 require_once("$IP/extensions/Scribunto/Scribunto.php");
 $wgScribuntoDefaultEngine = 'luastandalone';
 # $wgScribuntoUseGeSHi = true;
+
+# CodeEditor
+# https://www.mediawiki.org/wiki/Extension:CodeEditor
+require_once("$IP/extensions/CodeEditor/CodeEditor.php");
+
+# MobileFrontend
+# https://www.mediawiki.org/wiki/Extension:MobileFrontend
+require_once("$IP/extensions/MobileFrontend/MobileFrontend.php");
+
+require_once("$IP/extensions/langcode/LanguageCodeMagicWord.php");
