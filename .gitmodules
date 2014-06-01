@@ -85,3 +85,6 @@
 [submodule "Poem"]
 	path = Poem
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Poem.git
+[submodule "CSS"]
+	path = CSS
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CSS.git

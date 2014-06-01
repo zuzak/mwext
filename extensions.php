@@ -132,3 +132,7 @@ require_once("$IP/extensions/AjaxLogin/AjaxLogin.php");
 # Poem
 # https://www.mediawiki.org/wiki/Extension:Poem
 require_once("$IP/extensions/Poem/Poem.php");
+
+# CSS
+# https://www.mediawiki.org/wiki/Extension:CSS
+require_once("$IP/extensions/CSS/CSS.php");
