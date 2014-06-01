@@ -114,5 +114,8 @@ require_once("$IP/extensions/langcode/LanguageCodeMagicWord.php");
 
 # StickToThatLanguage
 # https://www.mediawiki.org/wiki/Extension:StickToThatLanguage
+#require_once("$IP/extensions/StickToThatLanguage/StickToThatLanguage.php");
+
+# StickToThatLanguage
+# https://www.mediawiki.org/wiki/Extension:StickToThatLanguage
 require_once("$IP/extensions/StickToThatLanguage/StickToThatLanguage.php");
-$egSTTLanguageDisplaySelector = false;
