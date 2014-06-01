@@ -141,3 +141,8 @@ require_once("$IP/extensions/GlobalUserrights/GlobalUserrights.php");
 # GlobalUserrights
 # https://www.mediawiki.org/wiki/Extension:GlobalUserrights
 require_once("$IP/extensions/GlobalUserrights/GlobalUserrights.php");
+$wgGroupPermissions['staff'] = array(); // rm group
+
+# RelationLinks
+# https://www.mediawiki.org/wiki/Extension:RelationLinks
+require_once("$IP/extensions/RelationLinks/RelationLinks.php");
