@@ -70,3 +70,9 @@
 [submodule "MobileFrontend"]
 	path = MobileFrontend
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MobileFrontend.git
+[submodule "langcode"]
+	path = langcode
+	url = https://github.com/zuzak/mw-langcode-magic.git
+[submodule "StickToThatLanguage"]
+	path = StickToThatLanguage
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/StickToThatLanguage.git
