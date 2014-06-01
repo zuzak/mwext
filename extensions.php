@@ -124,3 +124,7 @@ $egSTTLanguageDisplaySelector = false;
 # AbsenteeLandlord
 # https://www.mediawiki.org/wiki/Extension:AbsenteeLandlord
 require_once("$IP/extensions/AbsenteeLandlord/AbsenteeLandlord.php");
+
+# AjaxLogin
+# https://www.mediawiki.org/wiki/Extension:AjaxLogin
+require_once("$IP/extensions/AjaxLogin/AjaxLogin.php");

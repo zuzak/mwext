@@ -79,3 +79,6 @@
 [submodule "AbsenteeLandlord"]
 	path = AbsenteeLandlord
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AbsenteeLandlord.git
+[submodule "AjaxLogin"]
+	path = AjaxLogin
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AjaxLogin.git
