@@ -103,6 +103,7 @@ $wgScribuntoDefaultEngine = 'luastandalone';
 # CodeEditor
 # https://www.mediawiki.org/wiki/Extension:CodeEditor
 require_once("$IP/extensions/CodeEditor/CodeEditor.php");
+$wgCodeEditorEnableCore = true;
 
 # MobileFrontend
 # https://www.mediawiki.org/wiki/Extension:MobileFrontend
@@ -111,10 +112,6 @@ require_once("$IP/extensions/MobileFrontend/MobileFrontend.php");
 # LangCodeMagicWord
 # https://github.com/zuzak/mw-langcode-magic
 require_once("$IP/extensions/langcode/LanguageCodeMagicWord.php");
-
-# StickToThatLanguage
-# https://www.mediawiki.org/wiki/Extension:StickToThatLanguage
-require_once("$IP/extensions/StickToThatLanguage/StickToThatLanguage.php");
 
 # StickToThatLanguage
 # https://www.mediawiki.org/wiki/Extension:StickToThatLanguage
@@ -136,3 +133,7 @@ require_once("$IP/extensions/Poem/Poem.php");
 # CSS
 # https://www.mediawiki.org/wiki/Extension:CSS
 require_once("$IP/extensions/CSS/CSS.php");
+
+# GlobalUserrights
+# https://www.mediawiki.org/wiki/Extension:GlobalUserrights
+require_once("$IP/extensions/GlobalUserrights/GlobalUserrights.php");
