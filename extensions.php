@@ -154,3 +154,7 @@ require_once("$IP/extensions/Intersection/Intersection.php");
 # intersection
 # https://www.mediawiki.org/wiki/Extension:intersection
 require_once("$IP/extensions/intersection/intersection.php");
+
+# intersection
+# https://www.mediawiki.org/wiki/Extension:intersection
+require_once("$IP/extensions/intersection/intersection.php");
