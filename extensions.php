@@ -114,8 +114,13 @@ require_once("$IP/extensions/langcode/LanguageCodeMagicWord.php");
 
 # StickToThatLanguage
 # https://www.mediawiki.org/wiki/Extension:StickToThatLanguage
-#require_once("$IP/extensions/StickToThatLanguage/StickToThatLanguage.php");
+require_once("$IP/extensions/StickToThatLanguage/StickToThatLanguage.php");
 
 # StickToThatLanguage
 # https://www.mediawiki.org/wiki/Extension:StickToThatLanguage
 require_once("$IP/extensions/StickToThatLanguage/StickToThatLanguage.php");
+$egSTTLanguageDisplaySelector = false;
+
+# AbsenteeLandlord
+# https://www.mediawiki.org/wiki/Extension:AbsenteeLandlord
+require_once("$IP/extensions/AbsenteeLandlord/AbsenteeLandlord.php");
