@@ -67,3 +67,6 @@
 [submodule "CodeEditor"]
 	path = CodeEditor
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CodeEditor.git
+[submodule "MobileFrontend"]
+	path = MobileFrontend
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MobileFrontend.git
