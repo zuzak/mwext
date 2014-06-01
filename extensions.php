@@ -150,3 +150,7 @@ include_once("$IP/extensions/RelationLinks/RelationLinks.php");
 # Intersection
 # https://www.mediawiki.org/wiki/Extension:Intersection
 require_once("$IP/extensions/Intersection/Intersection.php");
+
+# intersection
+# https://www.mediawiki.org/wiki/Extension:intersection
+require_once("$IP/extensions/intersection/intersection.php");
