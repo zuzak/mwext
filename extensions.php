@@ -34,10 +34,6 @@ include_once("$IP/extensions/Vector/Vector.php");
 # https://www.mediawiki.org/wiki/Extension:PostEdit
 include_once("$IP/extensions/PostEdit/PostEdit.php");
 
-# intersection
-# https://www.mediawiki.org/wiki/Extension:intersection
-require_once("$IP/extensions/intersection/DynamicPageList.php");
-
 # Nuke
 # https://www.mediawiki.org/wiki/Extension:Nuke
 include_once("$IP/extensions/Nuke/Nuke.php");
@@ -136,25 +132,15 @@ include_once("$IP/extensions/CSS/CSS.php");
 
 # GlobalUserrights
 # https://www.mediawiki.org/wiki/Extension:GlobalUserrights
-include_once("$IP/extensions/GlobalUserrights/GlobalUserrights.php");
-
-# GlobalUserrights
-# https://www.mediawiki.org/wiki/Extension:GlobalUserrights
-include_once("$IP/extensions/GlobalUserrights/GlobalUserrights.php");
-$wgGroupPermissions['staff'] = array(); // rm group
-
-# RelationLinks
-# https://www.mediawiki.org/wiki/Extension:RelationLinks
-include_once("$IP/extensions/RelationLinks/RelationLinks.php");
+if ( !isset( $zuLocal ) ) {
+	include_once("$IP/extensions/GlobalUserrights/GlobalUserrights.php");
+	$wgGroupPermissions['staff'] = array(); // rm group
+}
 
 # Intersection
-# https://www.mediawiki.org/wiki/Extension:Intersection
-require_once("$IP/extensions/Intersection/Intersection.php");
-
-# intersection
 # https://www.mediawiki.org/wiki/Extension:intersection
-require_once("$IP/extensions/intersection/intersection.php");
+require_once("$IP/extensions/Intersection/DynamicPageList.php");
 
-# intersection
-# https://www.mediawiki.org/wiki/Extension:intersection
-require_once("$IP/extensions/intersection/intersection.php");
+# CLDR
+# https://www.mediawiki.org/wiki/Extension:CLDR
+require_once("$IP/extensions/CLDR/CLDR.php");

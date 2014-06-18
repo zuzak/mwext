@@ -91,3 +91,6 @@
 [submodule "GlobalUserrights"]
 	path = GlobalUserrights
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/GlobalUserrights.git
+[submodule "Intersection"]
+	path = Intersection
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/intersection.git
