@@ -141,10 +141,10 @@ if ( !isset( $zuLocal ) ) {
 # https://www.mediawiki.org/wiki/Extension:intersection
 require_once("$IP/extensions/Intersection/DynamicPageList.php");
 
-# CLDR
-# https://www.mediawiki.org/wiki/Extension:CLDR
-require_once("$IP/extensions/CLDR/CLDR.php");
-
 # cldr
 # https://www.mediawiki.org/wiki/Extension:cldr
 require_once("$IP/extensions/cldr/cldr.php");
+
+# Renameuser
+# https://www.mediawiki.org/wiki/Extension:Renameuser
+require_once("$IP/extensions/Renameuser/Renameuser.php");
