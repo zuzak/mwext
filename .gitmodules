@@ -106,3 +106,6 @@
 [submodule "Translate"]
 	path = Translate
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Translate.git
+[submodule "CleanChanges"]
+	path = CleanChanges
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CleanChanges.git

@@ -152,4 +152,8 @@ require_once("$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector
 
 # Translate
 # https://www.mediawiki.org/wiki/Extension:Translate
-require_once("$IP/extensions/Translate/Translate.php");
+#require_once("$IP/extensions/Translate/Translate.php");
+
+# CleanChanges
+# https://www.mediawiki.org/wiki/Extension:CleanChanges
+require_once("$IP/extensions/CleanChanges/CleanChanges.php");
