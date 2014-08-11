@@ -109,11 +109,6 @@ include_once("$IP/extensions/MobileFrontend/MobileFrontend.php");
 # https://github.com/zuzak/mw-langcode-magic
 require_once("$IP/extensions/langcode/LanguageCodeMagicWord.php");
 
-# StickToThatLanguage
-# https://www.mediawiki.org/wiki/Extension:StickToThatLanguage
-include_once("$IP/extensions/StickToThatLanguage/StickToThatLanguage.php");
-$egSTTLanguageDisplaySelector = false;
-
 # AbsenteeLandlord
 # https://www.mediawiki.org/wiki/Extension:AbsenteeLandlord
 # include_once("$IP/extensions/AbsenteeLandlord/AbsenteeLandlord.php");
@@ -154,3 +149,7 @@ include_once( "$IP/extensions/WikiInfo/WikiInfo.php" );
 # UniversalLanguageSelector
 # https://www.mediawiki.org/wiki/Extension:UniversalLanguageSelector
 require_once("$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php");
+
+# Translate
+# https://www.mediawiki.org/wiki/Extension:Translate
+require_once("$IP/extensions/Translate/Translate.php");

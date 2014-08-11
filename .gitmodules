@@ -103,3 +103,6 @@
 [submodule "UniversalLanguageSelector"]
 	path = UniversalLanguageSelector
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/UniversalLanguageSelector.git
+[submodule "Translate"]
+	path = Translate
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Translate.git
