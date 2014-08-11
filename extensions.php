@@ -116,7 +116,7 @@ $egSTTLanguageDisplaySelector = false;
 
 # AbsenteeLandlord
 # https://www.mediawiki.org/wiki/Extension:AbsenteeLandlord
-include_once("$IP/extensions/AbsenteeLandlord/AbsenteeLandlord.php");
+# include_once("$IP/extensions/AbsenteeLandlord/AbsenteeLandlord.php");
 
 # AjaxLogin
 # https://www.mediawiki.org/wiki/Extension:AjaxLogin
@@ -148,3 +148,9 @@ require_once("$IP/extensions/cldr/cldr.php");
 # Renameuser
 # https://www.mediawiki.org/wiki/Extension:Renameuser
 require_once("$IP/extensions/Renameuser/Renameuser.php");
+
+include_once( "$IP/extensions/WikiInfo/WikiInfo.php" );
+
+# UniversalLanguageSelector
+# https://www.mediawiki.org/wiki/Extension:UniversalLanguageSelector
+require_once("$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php");

@@ -100,3 +100,6 @@
 [submodule "Renameuser"]
 	path = Renameuser
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Renameuser.git
+[submodule "UniversalLanguageSelector"]
+	path = UniversalLanguageSelector
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/UniversalLanguageSelector.git
