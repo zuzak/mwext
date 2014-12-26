@@ -8,11 +8,12 @@ require_once( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
 
 # ConfirmEdit
 # https://www.mediawiki.org/wiki/Extension:ConfirmEdit
-include("$IP/extensions/ConfirmEdit/ConfirmEdit.php");
-include_once("$IP/extensions/ConfirmEdit/Asirra.php");
-$wgCaptchaClass = 'Asirra';
-$wgGroupPermissions['user']['skipcaptcha'] = false;
-$wgGroupPermissions['autoconfirmed']['skipcaptcha'] = true;
+#include("$IP/extensions/ConfirmEdit/ConfirmEdit.php");
+#include_once("$IP/extensions/ConfirmEdit/FancyCaptcha.php");
+#$wgCaptchaClass = 'FancyCaptcha';
+#$wgGroupPermissions['user']['skipcaptcha'] = false;
+#$wgGroupPermissions['autoconfirmed']['skipcaptcha'] = true;
+$wgGroupPermissions['createaccount']['*'] = false;
 
 # WikiEditor
 # https://www.mediawiki.org/wiki/Extension:WikiEditor
@@ -107,7 +108,7 @@ include_once("$IP/extensions/MobileFrontend/MobileFrontend.php");
 
 # LangCodeMagicWord
 # https://github.com/zuzak/mw-langcode-magic
-require_once("$IP/extensions/langcode/LanguageCodeMagicWord.php");
+#require_once("$IP/extensions/langcode/LanguageCodeMagicWord.php");
 
 # AbsenteeLandlord
 # https://www.mediawiki.org/wiki/Extension:AbsenteeLandlord
@@ -157,3 +158,12 @@ require_once("$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector
 # CleanChanges
 # https://www.mediawiki.org/wiki/Extension:CleanChanges
 require_once("$IP/extensions/CleanChanges/CleanChanges.php");
+$wgCCTrailerFilter = true;
+$wgCCUserFilter = false;
+$wgDefaultUserOptions['usenewrc'] = 1;
+
+require_once("$IP/extensions/LocalisationUpdate/LocalisationUpdate.php");
+
+# MultimediaViewer
+# https://www.mediawiki.org/wiki/Extension:MultimediaViewer
+require_once("$IP/extensions/MultimediaViewer/MultimediaViewer.php");
