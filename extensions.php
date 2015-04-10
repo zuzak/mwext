@@ -164,6 +164,7 @@ $wgDefaultUserOptions['usenewrc'] = 1;
 
 require_once("$IP/extensions/LocalisationUpdate/LocalisationUpdate.php");
 
-# MultimediaViewer
-# https://www.mediawiki.org/wiki/Extension:MultimediaViewer
-require_once("$IP/extensions/MultimediaViewer/MultimediaViewer.php");
+
+# TorBlock
+# https://www.mediawiki.org/wiki/Extension:TorBlock
+require_once("$IP/extensions/TorBlock/TorBlock.php");
