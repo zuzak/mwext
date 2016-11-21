@@ -172,3 +172,8 @@ require_once("$IP/extensions/TorBlock/TorBlock.php");
 # RevisionSlider
 # https://www.mediawiki.org/wiki/Extension:RevisionSlider
 require_once("$IP/extensions/RevisionSlider/RevisionSlider.php");
+#wfLoadExtension( 'extensions/RevisionSlider' );
+
+# RevisionSlider
+# https://www.mediawiki.org/wiki/Extension:RevisionSlider
+require_once("$IP/extensions/RevisionSlider/RevisionSlider.php");
