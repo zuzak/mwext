@@ -168,3 +168,7 @@ require_once("$IP/extensions/LocalisationUpdate/LocalisationUpdate.php");
 # TorBlock
 # https://www.mediawiki.org/wiki/Extension:TorBlock
 require_once("$IP/extensions/TorBlock/TorBlock.php");
+
+# RevisionSlider
+# https://www.mediawiki.org/wiki/Extension:RevisionSlider
+require_once("$IP/extensions/RevisionSlider/RevisionSlider.php");
