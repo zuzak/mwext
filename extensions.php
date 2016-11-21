@@ -177,3 +177,7 @@ require_once("$IP/extensions/RevisionSlider/RevisionSlider.php");
 # RevisionSlider
 # https://www.mediawiki.org/wiki/Extension:RevisionSlider
 require_once("$IP/extensions/RevisionSlider/RevisionSlider.php");
+
+# RevisionSlider
+# https://www.mediawiki.org/wiki/Extension:RevisionSlider
+require_once("$IP/extensions/RevisionSlider/RevisionSlider.php");

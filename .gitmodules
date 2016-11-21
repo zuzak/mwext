@@ -109,3 +109,6 @@
 [submodule "CleanChanges"]
 	path = CleanChanges
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CleanChanges.git
+[submodule "RevisionSlider"]
+	path = RevisionSlider
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/RevisionSlider.git
